@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './loading.scss'
 
-function loading() {
+const loading = () => {
   const [count, setCount] = useState(0)
 
   return (
