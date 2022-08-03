@@ -1,0 +1,7 @@
+.root {
+  position: fixed;
+  // 如果不加 :global ，所有类名就必须添加 styles.title 才可以
+  :global {
+
+  }
+}
